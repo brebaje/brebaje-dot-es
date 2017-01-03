@@ -1,0 +1,48 @@
+body {
+  background-color: #002833;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.command {
+  padding-top: 15px;
+}
+
+.command p span {
+  display: inline-block;
+}
+
+.path {
+  background-color: #BA55D3;
+  padding: 0 5px 0 3px;
+}
+
+.git {
+  background-color: #1964A5;
+  padding-left: 5px;
+  padding-right: 3px;
+}
+
+.path,
+.git {
+  color: white;
+}
+
+.instruction {
+  color: #ABCD7E;
+  padding: 0 10px;
+}
+
+.filename {
+  color: #839496;
+}
+
+a,
+.result {
+  color: #839496;
+}
+
+a:hover,
+a:focus {
+  color: #DCB059;
+  text-decoration: none;
+}

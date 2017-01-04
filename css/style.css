@@ -1,6 +1,7 @@
 body {
   background-color: #002833;
   font-family: 'Roboto Mono', monospace;
+  padding: 0 15px;
 }
 
 .command {
@@ -34,6 +35,20 @@ body {
 
 .filename {
   color: #839496;
+}
+
+table.listing {
+  margin-bottom: 10px;
+}
+
+table.listing td {
+  padding: 5px 10px 0 0;
+  text-align: right;
+}
+
+table.listing td.directory {
+  color: #00BFFF;
+  text-align: left;
 }
 
 a,

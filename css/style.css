@@ -21,12 +21,14 @@ body .command p {
   align-items: center;
   display: flex;
   height: 20px;
+  line-height: 20px;
 }
 body .command p span {
   display: inline-flex;
 }
 body .command p .svg-triangle {
   height: 20px;
+  margin-left: -1px;
   width: 20px;
 }
 body .command p .svg-triangle.git-end {
@@ -49,6 +51,10 @@ body .command .path {
 body .command .git {
   background-color: #5cabdc;
   padding: 0 10px 0 0;
+}
+body .command .git .fa-code-branch {
+  line-height: 20px;
+  padding-right: 5px;
 }
 body .command .instruction {
   color: #8cc16d;

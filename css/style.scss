@@ -22,6 +22,7 @@ body {
       align-items: center;
       display: flex;
       height: 20px;
+      line-height: 20px;
 
       span {
         display: inline-flex;
@@ -29,6 +30,7 @@ body {
 
       .svg-triangle {
         height: 20px;
+        margin-left: -1px; // visual fix for FF and Edge
         width: 20px;
 
         &.git-end {
@@ -58,6 +60,11 @@ body {
     .git {
       background-color: $blue;
       padding: 0 10px 0 0;
+
+      .fa-code-branch {
+        line-height: 20px;
+        padding-right: 5px;
+      }
     }
 
     .instruction {

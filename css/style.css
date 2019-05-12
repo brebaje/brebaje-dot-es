@@ -1,84 +1,84 @@
-/* style.css */
-/* main */
 body {
   background-color: #002833;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   padding: 15px 15px 25px;
   font-size: 10px;
 }
-
 @media (min-width: 768px) {
   body {
     font-size: 12px;
   }
 }
-
 @media (min-width: 992px) {
   body {
     font-size: 14px;
   }
 }
-
-/* command line styles */
-.command {
+body .command {
   padding-top: 15px;
 }
-
-.command p span {
-  display: inline-block;
+body .command p {
+  align-items: center;
+  display: flex;
+  height: 20px;
 }
-
-.path {
-  background-color: #BA55D3;
-  padding: 0 5px 0 3px;
+body .command p span {
+  display: inline-flex;
 }
-
-.git {
-  background-color: #1964A5;
-  padding-left: 5px;
-  padding-right: 3px;
+body .command p .svg-triangle {
+  height: 20px;
+  width: 20px;
 }
-
-.path,
-.git {
+body .command p .svg-triangle.git-end {
+  fill: #5cabdc;
+}
+body .command p .svg-triangle.path-start {
+  fill: #002833;
+}
+body .command p .svg-triangle.path-end {
+  fill: #da5673;
+}
+body .command .path,
+body .command .git {
   color: white;
 }
-
-.instruction {
-  color: #ABCD7E;
-  padding: 0 10px;
+body .command .path {
+  background-color: #da5673;
+  padding-right: 10px;
 }
-
-.filename {
+body .command .git {
+  background-color: #5cabdc;
+  padding: 0 10px 0 0;
+}
+body .command .instruction {
+  color: #8cc16d;
+  padding: 0 10px 0 0;
+}
+body .command .filename {
   color: #839496;
 }
-
-/* result of the command-line styles */
-.result {
+body .output {
   color: #839496;
 }
-
-table.listing {
+body .output table.listing {
   margin-bottom: 10px;
 }
-
-table.listing td {
+body .output table.listing td {
   padding: 5px 10px 0 0;
   text-align: right;
 }
-
-table.listing td.directory {
-  color: #00BFFF;
+body .output table.listing td.directory {
+  color: #5cabdc;
   text-align: left;
 }
-
-a,
-p.highlight {
+body .output a,
+body .output p.highlight {
   color: white;
 }
-
-a:hover,
-a:focus {
-  color: #DCB059;
+body .output a:hover,
+body .output a:focus {
+  color: #eebf35;
   text-decoration: none;
 }
+
+/*# sourceMappingURL=style.css.map */

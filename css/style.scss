@@ -1,0 +1,102 @@
+@import 'vars';
+
+body {
+  background-color: $background;
+  font-family: $font;
+  padding: 15px 15px 25px;
+  font-size: 10px;
+
+  @media (min-width: 768px) {
+    font-size: 12px;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 14px;
+  }
+
+  // command line
+  .command {
+    padding-top: 15px;
+
+    p {
+      align-items: center;
+      display: flex;
+      height: 20px;
+
+      span {
+        display: inline-flex;
+      }
+
+      .svg-triangle {
+        height: 20px;
+        width: 20px;
+
+        &.git-end {
+          fill: $blue;
+        }
+
+        &.path-start {
+          fill: $background;
+        }
+
+        &.path-end {
+          fill: $red;
+        }
+      }
+    }
+
+    .path,
+    .git {
+      color: white;
+    }
+
+    .path {
+      background-color: $red;
+      padding-right: 10px;
+    }
+
+    .git {
+      background-color: $blue;
+      padding: 0 10px 0 0;
+    }
+
+    .instruction {
+      color: $green;
+      padding: 0 10px 0 0;
+    }
+
+    .filename {
+      color: $text;
+    }
+  }
+
+  // command line output
+  .output {
+    color: $text;
+
+    table.listing {
+      margin-bottom: 10px;
+
+      td {
+        padding: 5px 10px 0 0;
+        text-align: right;
+
+        &.directory {
+          color: $blue;
+          text-align: left;
+        }
+      }
+    }
+
+    a,
+    p.highlight {
+      color: white;
+    }
+
+    a:hover,
+    a:focus {
+      color: $yellow;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,6 +1,8 @@
 body {
   background-color: #002833;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Fira Code", monospace;
+  font-feature-settings: "calt" 1;
+  font-variant-ligatures: contextual;
   padding: 15px 15px 25px;
   font-size: 10px;
 }

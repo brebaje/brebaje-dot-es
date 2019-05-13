@@ -3,6 +3,8 @@
 body {
   background-color: $background;
   font-family: $font;
+  font-feature-settings: "calt" 1;
+  font-variant-ligatures: contextual;
   padding: 15px 15px 25px;
   font-size: 10px;
 

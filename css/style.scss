@@ -3,8 +3,8 @@
 body {
   background-color: $background;
   font-family: $font;
-  font-feature-settings: "calt" 1;
-  font-variant-ligatures: contextual;
+  font-feature-settings: "calt" 1; // IE 10+, Edge
+  font-variant-ligatures: contextual; // CodeMirror
   padding: 15px 15px 25px;
   font-size: 10px;
 
@@ -23,7 +23,7 @@ body {
     p {
       align-items: center;
       display: flex;
-      height: 20px;
+      flex-wrap: wrap;
       line-height: 20px;
 
       span {

@@ -22,7 +22,7 @@ body .command {
 body .command p {
   align-items: center;
   display: flex;
-  height: 20px;
+  flex-wrap: wrap;
   line-height: 20px;
 }
 body .command p span {

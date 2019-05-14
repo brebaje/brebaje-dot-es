@@ -6,6 +6,8 @@ Simple personal website with a terminal look.
 
 ## Dependencies
 
-[Bootstrap](http://getbootstrap.com)
+[Bootstrap v3](https://getbootstrap.com/docs/3.3/)
 
-Icons belong to [iconic](http://useiconic.com) (personal license) 
+[Font Awesome](http://fontawesome.com)
+
+[Fira Code](https://github.com/tonsky/FiraCode)

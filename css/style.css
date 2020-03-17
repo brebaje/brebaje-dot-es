@@ -30,7 +30,6 @@ body .command p span {
 }
 body .command p .svg-triangle {
   height: 20px;
-  margin-left: -1px;
   width: 20px;
 }
 body .command p .svg-triangle.git-end {

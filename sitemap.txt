@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.brebaje.es/</loc>
-    <lastmod>2019-05-12</lastmod>
+    <loc>https://www.brebaje.es/</loc>
+    <lastmod>2020-09-20</lastmod>
   </url>
-  <url>
-    <loc>http://www.brebaje.info/</loc>
-    <lastmod>2019-05-12</lastmod>
-    </url>
 </urlset>

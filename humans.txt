@@ -7,7 +7,7 @@ From: Santiago de Compostela, Galicia, Spain
 
 /* SITE */
 
-Last update: May 2019
+Last update: Sept 2020
 Doctype: HTML5
 Languages: English
 IDE: WebStorm
